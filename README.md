@@ -47,7 +47,7 @@ That is what this repository is, and it is free in your browser with no account.
 
 1. Read the classification note in [code-patterns/](code-patterns/) so the 22 patterns stop looking like a flat list of 22 names.
 2. Learn a pattern from its page, then read the "when not to use it" section. That section is the one that changes how you write code.
-3. Run the matching example in `examples/` in whichever language you think in.
+3. Run the matching example in [examples/](examples/) in whichever language you think in.
 4. When you move up an altitude, read [system-patterns/](system-patterns/) the same way: mechanism first, then failure modes.
 5. Go deeper in the full courses when you want lessons, diagrams, and worked designs.
 
@@ -59,38 +59,38 @@ Twenty-two patterns in three families. The families matter: they tell you which 
 
 | Pattern | What it solves |
 |---|---|
-| Singleton | One shared instance, with one place that owns its lifecycle |
-| Factory Method | Let a subclass decide which concrete type to create |
-| Abstract Factory | Create whole families of related objects that must match |
-| Builder | Assemble a complex object step by step, without a 12-argument constructor |
-| Prototype | Create a new object by copying a configured one |
+| [Singleton](code-patterns/creational/singleton.md) | One shared instance, with one place that owns its lifecycle |
+| [Factory Method](code-patterns/creational/factory-method.md) | Let a subclass decide which concrete type to create |
+| [Abstract Factory](code-patterns/creational/abstract-factory.md) | Create whole families of related objects that must match |
+| [Builder](code-patterns/creational/builder.md) | Assemble a complex object step by step, without a 12-argument constructor |
+| [Prototype](code-patterns/creational/prototype.md) | Create a new object by copying a configured one |
 
 ### Structural: how objects are put together
 
 | Pattern | What it solves |
 |---|---|
-| Adapter | Make an incompatible interface fit the one your code already expects |
-| Bridge | Vary an abstraction and its implementation independently |
-| Composite | Treat a single object and a tree of objects the same way |
-| Decorator | Add behavior to one object without touching its class |
-| Facade | Hide a complicated subsystem behind one simple entry point |
-| Flyweight | Share the common part of state so millions of objects fit in memory |
-| Proxy | Stand in for another object to control access, cost, or timing |
+| [Adapter](code-patterns/structural/adapter.md) | Make an incompatible interface fit the one your code already expects |
+| [Bridge](code-patterns/structural/bridge.md) | Vary an abstraction and its implementation independently |
+| [Composite](code-patterns/structural/composite.md) | Treat a single object and a tree of objects the same way |
+| [Decorator](code-patterns/structural/decorator.md) | Add behavior to one object without touching its class |
+| [Facade](code-patterns/structural/facade.md) | Hide a complicated subsystem behind one simple entry point |
+| [Flyweight](code-patterns/structural/flyweight.md) | Share the common part of state so millions of objects fit in memory |
+| [Proxy](code-patterns/structural/proxy.md) | Stand in for another object to control access, cost, or timing |
 
 ### Behavioral: how objects talk
 
 | Pattern | What it solves |
 |---|---|
-| Chain of Responsibility | Pass a request down a line of handlers until one takes it |
-| Command | Turn a request into an object you can queue, log, retry, or undo |
-| Iterator | Walk a collection without exposing how it stores things |
-| Mediator | Route object-to-object talk through one coordinator |
-| Memento | Capture and restore state without breaking encapsulation |
-| Observer | Notify many dependents when one object changes |
-| State | Change behavior when internal state changes, instead of a growing switch |
-| Strategy | Swap an algorithm at runtime behind one interface |
-| Template Method | Fix the steps of an algorithm, let subclasses fill in the steps |
-| Visitor | Add a new operation to a class hierarchy without editing the hierarchy |
+| [Chain of Responsibility](code-patterns/behavioral/chain-of-responsibility.md) | Pass a request down a line of handlers until one takes it |
+| [Command](code-patterns/behavioral/command.md) | Turn a request into an object you can queue, log, retry, or undo |
+| [Iterator](code-patterns/behavioral/iterator.md) | Walk a collection without exposing how it stores things |
+| [Mediator](code-patterns/behavioral/mediator.md) | Route object-to-object talk through one coordinator |
+| [Memento](code-patterns/behavioral/memento.md) | Capture and restore state without breaking encapsulation |
+| [Observer](code-patterns/behavioral/observer.md) | Notify many dependents when one object changes |
+| [State](code-patterns/behavioral/state.md) | Change behavior when internal state changes, instead of a growing switch |
+| [Strategy](code-patterns/behavioral/strategy.md) | Swap an algorithm at runtime behind one interface |
+| [Template Method](code-patterns/behavioral/template-method.md) | Fix the steps of an algorithm, let subclasses fill in the steps |
+| [Visitor](code-patterns/behavioral/visitor.md) | Add a new operation to a class hierarchy without editing the hierarchy |
 
 Full catalog with links, comparisons, and the "often confused with" map: [code-patterns/README.md](code-patterns/README.md).
 
@@ -123,9 +123,9 @@ System pattern pages: the mechanism, a diagram, **knobs and typical numbers**, t
 
 ## Also in this repo
 
-Being built in batches. Current state is visible in the two catalogs above.
+Built in batches. Current state is visible in the two catalogs above.
 
-- `examples/`: runnable code for every Gang of Four pattern in Java, Python, and TypeScript. No framework, no build system, one file per pattern.
+- [examples/](examples/): runnable code for all 22 Gang of Four patterns in Java, Python, and TypeScript. No framework, no build system, one file per pattern. **Live now.**
 - `decision-guides/`: the side-by-side sheets. Strategy vs State. Factory Method vs Abstract Factory. Decorator vs Proxy vs Adapter. Observer vs pub-sub. Saga vs two-phase commit. Blue-green vs canary.
 - `anti-patterns/`: the cost side. Singleton as a global variable, pattern-itis, retry storms, the distributed monolith, saga without compensations.
 - `for-managers/`: reviewing a design doc for cargo cult, an ADR template, a per-family design-review checklist, and the onboarding cost of every pattern you approve.

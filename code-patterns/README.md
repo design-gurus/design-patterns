@@ -2,7 +2,7 @@
 
 The 22 classic object-oriented design patterns, written for engineers who have to maintain the result and for the people who review the pull request.
 
-Pages ship in batches. A linked pattern name means the page is live. An unlinked name is on the list.
+All 22 pages are live. Each one comes with runnable code in Java, Python, and TypeScript in [../examples/](../examples/).
 
 ## Contents
 
@@ -59,38 +59,38 @@ A caution before you use it: the fastest way to write worse code is to reach for
 
 | Pattern | What it solves | Reach for it when |
 |---|---|---|
-| Singleton | One shared instance, with one place that owns its lifecycle | A resource is genuinely single, like a connection pool. Rarely as often as people use it |
-| Factory Method | Let a subclass decide which concrete type to create | A base class must create something, but only the subclass knows which |
-| Abstract Factory | Create whole families of related objects that must match | Swapping one implementation means swapping five related ones together |
-| Builder | Assemble a complex object step by step | The constructor has grown past four or five arguments, several of them optional |
-| Prototype | Create a new object by copying a configured one | Setting up a fresh instance is expensive, and you already have a good one |
+| [Singleton](creational/singleton.md) | One shared instance, with one place that owns its lifecycle | A resource is genuinely single, like a connection pool. Rarely as often as people use it |
+| [Factory Method](creational/factory-method.md) | Let a subclass decide which concrete type to create | A base class must create something, but only the subclass knows which |
+| [Abstract Factory](creational/abstract-factory.md) | Create whole families of related objects that must match | Swapping one implementation means swapping five related ones together |
+| [Builder](creational/builder.md) | Assemble a complex object step by step | The constructor has grown past four or five arguments, several of them optional |
+| [Prototype](creational/prototype.md) | Create a new object by copying a configured one | Setting up a fresh instance is expensive, and you already have a good one |
 
 ## Structural patterns
 
 | Pattern | What it solves | Reach for it when |
 |---|---|---|
-| Adapter | Make an incompatible interface fit the one your code expects | You are wrapping a third-party library or a legacy service |
-| Bridge | Vary an abstraction and its implementation independently | Two dimensions are multiplying into a class explosion |
-| Composite | Treat a single object and a tree of objects the same way | You keep writing "if this is a leaf, else recurse" |
-| Decorator | Add behavior to one object without touching its class | Behavior stacks: logging, then retry, then metrics, in different combinations |
-| Facade | Hide a complicated subsystem behind one simple entry point | Callers need three lines, not thirty, and you cannot change the subsystem |
-| Flyweight | Share the common part of state so many objects fit in memory | You hold millions of near-identical objects |
-| Proxy | Stand in for another object to control access, cost, or timing | You need lazy loading, access control, caching, or a remote call to look local |
+| [Adapter](structural/adapter.md) | Make an incompatible interface fit the one your code expects | You are wrapping a third-party library or a legacy service |
+| [Bridge](structural/bridge.md) | Vary an abstraction and its implementation independently | Two dimensions are multiplying into a class explosion |
+| [Composite](structural/composite.md) | Treat a single object and a tree of objects the same way | You keep writing "if this is a leaf, else recurse" |
+| [Decorator](structural/decorator.md) | Add behavior to one object without touching its class | Behavior stacks: logging, then retry, then metrics, in different combinations |
+| [Facade](structural/facade.md) | Hide a complicated subsystem behind one simple entry point | Callers need three lines, not thirty, and you cannot change the subsystem |
+| [Flyweight](structural/flyweight.md) | Share the common part of state so many objects fit in memory | You hold millions of near-identical objects |
+| [Proxy](structural/proxy.md) | Stand in for another object to control access, cost, or timing | You need lazy loading, access control, caching, or a remote call to look local |
 
 ## Behavioral patterns
 
 | Pattern | What it solves | Reach for it when |
 |---|---|---|
-| Chain of Responsibility | Pass a request down a line of handlers until one takes it | Middleware, validation stages, or an approval flow |
-| Command | Turn a request into an object you can queue, log, retry, or undo | You need undo, an audit trail, or deferred execution |
-| Iterator | Walk a collection without exposing how it stores things | You are writing a custom collection. Your language probably gives you this already |
-| Mediator | Route object-to-object talk through one coordinator | Every component knows every other component |
-| Memento | Capture and restore state without breaking encapsulation | Undo, checkpoints, or a wizard the user can back out of |
-| Observer | Notify many dependents when one object changes | One change, several unrelated reactions, and the source should not know them |
-| State | Change behavior when internal state changes | A switch on a status field appears in five different methods |
-| Strategy | Swap an algorithm at runtime behind one interface | Pricing rules, sorting, routing, anything with real alternatives |
-| Template Method | Fix the steps of an algorithm, let subclasses fill them in | Every implementation follows the same five steps with two of them different |
-| Visitor | Add a new operation to a class hierarchy without editing it | The hierarchy is stable but the operations keep multiplying |
+| [Chain of Responsibility](behavioral/chain-of-responsibility.md) | Pass a request down a line of handlers until one takes it | Middleware, validation stages, or an approval flow |
+| [Command](behavioral/command.md) | Turn a request into an object you can queue, log, retry, or undo | You need undo, an audit trail, or deferred execution |
+| [Iterator](behavioral/iterator.md) | Walk a collection without exposing how it stores things | You are writing a custom collection. Your language probably gives you this already |
+| [Mediator](behavioral/mediator.md) | Route object-to-object talk through one coordinator | Every component knows every other component |
+| [Memento](behavioral/memento.md) | Capture and restore state without breaking encapsulation | Undo, checkpoints, or a wizard the user can back out of |
+| [Observer](behavioral/observer.md) | Notify many dependents when one object changes | One change, several unrelated reactions, and the source should not know them |
+| [State](behavioral/state.md) | Change behavior when internal state changes | A switch on a status field appears in five different methods |
+| [Strategy](behavioral/strategy.md) | Swap an algorithm at runtime behind one interface | Pricing rules, sorting, routing, anything with real alternatives |
+| [Template Method](behavioral/template-method.md) | Fix the steps of an algorithm, let subclasses fill them in | Every implementation follows the same five steps with two of them different |
+| [Visitor](behavioral/visitor.md) | Add a new operation to a class hierarchy without editing it | The hierarchy is stable but the operations keep multiplying |
 
 ## The pairs people mix up
 

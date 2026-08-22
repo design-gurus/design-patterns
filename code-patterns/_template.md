@@ -49,7 +49,7 @@ Minimal and runnable. Show the shape, not a framework.
 // TypeScript
 ```
 
-Full runnable versions live in `examples/java/<pattern>/`, `examples/python/<pattern>/`, and `examples/typescript/<pattern>/`. Link to them from the real page.
+Full runnable versions live in `examples/`, one file per language, named the way that language names things: `java/PatternDemo.java`, `python/pattern.py`, `typescript/pattern.ts`. Link to all three from the real page.
 
 ## When to use it
 
