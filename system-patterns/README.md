@@ -2,7 +2,7 @@
 
 Sixty-two patterns for the layer above your code: how services talk, where data lives, what happens when a dependency gets slow, and how any of it survives a traffic spike.
 
-Pages ship in batches. A linked pattern name means the page is live. An unlinked name is on the list.
+**38 of the 62 pages are live.** A linked pattern name means the page is written. The 24 unlinked ones are next.
 
 **Where the interview framing lives.** Several of these patterns already have an interview-focused page in the sibling repo, [grokking-system-design](https://github.com/design-gurus/grokking-system-design). Those pages answer "how do I talk about this in a round". The pages here answer "how do I build it, what are the knobs, and how does it fail". The third column points at the interview version where one exists.
 
@@ -26,11 +26,11 @@ How one service gets a message to another, and what it gives up in exchange.
 
 | Pattern | What it solves | Interview view |
 |---|---|---|
-| Request-Response | The default. Caller waits, gets an answer, handles the error itself | |
+| [Request-Response](communication/request-response.md) | The default. Caller waits, gets an answer, handles the error itself | |
 | Message Queue | Work outlives the request. The producer stops waiting for the consumer | [sibling page][gsd-queues] |
-| Publish-Subscribe | One event, many independent consumers, none of them known to the producer | [sibling page][gsd-queues] |
-| Event-Driven Architecture | Services coordinate through facts that happened, not commands to obey | |
-| Webhooks | You push to them instead of making them poll you | |
+| [Publish-Subscribe](communication/publish-subscribe.md) | One event, many independent consumers, none of them known to the producer | [sibling page][gsd-queues] |
+| [Event-Driven Architecture](communication/event-driven-architecture.md) | Services coordinate through facts that happened, not commands to obey | |
+| [Webhooks](communication/webhooks.md) | You push to them instead of making them poll you | |
 | Server-Sent Events | One-way server push over plain HTTP, with automatic reconnect | [sibling page][gsd-realtime] |
 | Bidirectional Streaming | Both sides send whenever they have something, over one connection | [sibling page][gsd-realtime] |
 
@@ -53,11 +53,11 @@ Five strategies that are usually taught as one word. The differences decide whet
 
 | Pattern | What it solves | Interview view |
 |---|---|---|
-| Cache-Aside | Application controls the cache. The most common, and the easiest to get subtly wrong | [sibling page][gsd-caching] |
-| Read-Through | The cache owns the fetch, so callers never see the data source | [sibling page][gsd-caching] |
-| Write-Through | Write to cache and store together, buying consistency with write latency | [sibling page][gsd-caching] |
-| Write-Behind | Acknowledge fast, persist later, and accept a window where data can be lost | [sibling page][gsd-caching] |
-| Cache Stampede Prevention | Stop a thousand requests from rebuilding the same expired key at once | [sibling page][gsd-caching] |
+| [Cache-Aside](caching/cache-aside.md) | Application controls the cache. The most common, and the easiest to get subtly wrong | [sibling page][gsd-caching] |
+| [Read-Through](caching/read-through.md) | The cache owns the fetch, so callers never see the data source | [sibling page][gsd-caching] |
+| [Write-Through](caching/write-through.md) | Write to cache and store together, buying consistency with write latency | [sibling page][gsd-caching] |
+| [Write-Behind](caching/write-behind.md) | Acknowledge fast, persist later, and accept a window where data can be lost | [sibling page][gsd-caching] |
+| [Cache Stampede Prevention](caching/cache-stampede-prevention.md) | Stop a thousand requests from rebuilding the same expired key at once | [sibling page][gsd-caching] |
 
 ## Reliability
 
@@ -65,30 +65,30 @@ Seven patterns that exist because dependencies get slow before they get fast aga
 
 | Pattern | What it solves | Interview view |
 |---|---|---|
-| Timeout | Bounding how long you are willing to be stuck. The one nobody sets correctly | |
-| Retry with Exponential Backoff | Recovering from a transient failure without turning it into a stampede | |
+| [Timeout](reliability/timeout.md) | Bounding how long you are willing to be stuck. The one nobody sets correctly | |
+| [Retry with Exponential Backoff](reliability/retry-exponential-backoff.md) | Recovering from a transient failure without turning it into a stampede | |
 | Idempotency | Making a repeated request safe, which is what makes retries safe at all | [sibling page][gsd-idempotency] |
 | Circuit Breaker | Failing fast when a dependency is already down, instead of queueing behind it | [sibling page][gsd-cb] |
-| Bulkhead | Isolating resources so one sick dependency cannot drown the whole service | |
-| Dead Letter Queue | Somewhere for the message that will never succeed, so the queue keeps moving | |
-| Graceful Degradation | Serving something useful when the ideal answer is unavailable | |
+| [Bulkhead](reliability/bulkhead.md) | Isolating resources so one sick dependency cannot drown the whole service | |
+| [Dead Letter Queue](reliability/dead-letter-queue.md) | Somewhere for the message that will never succeed, so the queue keeps moving | |
+| [Graceful Degradation](reliability/graceful-degradation.md) | Serving something useful when the ideal answer is unavailable | |
 
 ## Scaling
 
 | Pattern | What it solves | Interview view |
 |---|---|---|
-| Vertical Scaling | The bigger machine. Underrated, and it runs out | |
-| Horizontal Scaling | More machines, which forces you to deal with state | |
+| [Vertical Scaling](scaling/vertical-scaling.md) | The bigger machine. Underrated, and it runs out | |
+| [Horizontal Scaling](scaling/horizontal-scaling.md) | More machines, which forces you to deal with state | |
 | Load Balancing | Spreading traffic, and deciding what "healthy" means | [sibling page][gsd-lb] |
-| Auto-Scaling | Matching capacity to load, with the lag between the two as the real problem | |
-| Connection Pooling | Not paying the connection cost per request, and not exhausting the database | |
+| [Auto-Scaling](scaling/auto-scaling.md) | Matching capacity to load, with the lag between the two as the real problem | |
+| [Connection Pooling](scaling/connection-pooling.md) | Not paying the connection cost per request, and not exhausting the database | |
 
 ## Distributed consistency
 
 | Pattern | What it solves | Interview view |
 |---|---|---|
 | Two-Phase Commit | Atomic commit across systems, at the cost of a blocking coordinator | [sibling page][gsd-txn] |
-| Saga | Long-lived transactions as steps plus compensations, with no global lock | [sibling page][gsd-txn] |
+| [Saga](consistency/saga.md) | Long-lived transactions as steps plus compensations, with no global lock | [sibling page][gsd-txn] |
 | Quorum | Agreeing with a majority instead of everyone, so a minority can fail | [sibling page][gsd-quorum] |
 | Vector Clocks | Telling concurrent updates apart from ordered ones without a global clock | [sibling page][gsd-clocks] |
 
@@ -101,22 +101,22 @@ Everything between the user and your services.
 | Reverse Proxy | One front door: TLS, routing, buffering, and a place to put policy | [sibling page][gsd-proxies] |
 | CDN | Serving bytes from near the user, and the cache invalidation that comes with it | [sibling page][gsd-cdn] |
 | API Gateway | Auth, rate limits, and routing in one hop, plus the risk of a new monolith | [sibling page][gsd-gateway] |
-| Backend for Frontend | A tailored API per client, instead of one API that fits none of them | |
+| [Backend for Frontend](api-edge/backend-for-frontend.md) | A tailored API per client, instead of one API that fits none of them | |
 | Rate Limiting | Protecting capacity, and choosing an algorithm that matches your traffic shape | [sibling page][gsd-ratelimit] |
-| Cursor-Based Pagination | Stable paging over changing data, which offset pagination cannot give you | |
-| API Versioning | Changing a contract without breaking clients you do not control | |
-| Sidecar | Moving cross-cutting concerns out of the application process | [sibling page][gsd-proxies] |
-| Service Mesh | Sidecars with a control plane, and whether you are big enough to need one | |
+| [Cursor-Based Pagination](api-edge/cursor-pagination.md) | Stable paging over changing data, which offset pagination cannot give you | |
+| [API Versioning](api-edge/api-versioning.md) | Changing a contract without breaking clients you do not control | |
+| [Sidecar](api-edge/sidecar.md) | Moving cross-cutting concerns out of the application process | [sibling page][gsd-proxies] |
+| [Service Mesh](api-edge/service-mesh.md) | Sidecars with a control plane, and whether you are big enough to need one | |
 
 ## Operations
 
 | Pattern | What it solves | Interview view |
 |---|---|---|
 | Health Check Endpoint | Telling the load balancer the truth, including the difference between live and ready | [sibling page][gsd-heartbeats] |
-| Distributed Tracing | Following one request across services when the logs are in twelve places | |
-| Blue-Green Deployment | Two full environments and an instant switch, including instant rollback | |
-| Canary Deployment | Exposing a small share of real traffic before you commit | |
-| Feature Flags | Separating deploy from release, and the flag debt that follows | |
+| [Distributed Tracing](operations/distributed-tracing.md) | Following one request across services when the logs are in twelve places | |
+| [Blue-Green Deployment](operations/blue-green-deployment.md) | Two full environments and an instant switch, including instant rollback | |
+| [Canary Deployment](operations/canary-deployment.md) | Exposing a small share of real traffic before you commit | |
+| [Feature Flags](operations/feature-flags.md) | Separating deploy from release, and the flag debt that follows | |
 
 ## Data-intensive
 
@@ -125,10 +125,10 @@ Everything between the user and your services.
 | MapReduce | Splitting a huge batch job across machines, and why it fell out of fashion | [sibling page][gsd-batch] |
 | Stream Processing | Computing on data in motion, with windows and late arrivals | [sibling page][gsd-batch] |
 | Lambda and Kappa | Whether you keep a batch layer alongside the stream, or just the stream | [sibling page][gsd-batch] |
-| Change Data Capture | Turning database writes into a stream without dual writes | |
-| Exactly-Once Semantics | What it actually means, and why it is really effectively-once | |
+| [Change Data Capture](data-intensive/change-data-capture.md) | Turning database writes into a stream without dual writes | |
+| [Exactly-Once Semantics](data-intensive/exactly-once-semantics.md) | What it actually means, and why it is really effectively-once | |
 | Backpressure | Letting a slow consumer slow the producer instead of falling over | [sibling page][gsd-backpressure] |
-| Partitioned Consumption | Parallel consumers with ordering guarantees inside a partition | |
+| [Partitioned Consumption](data-intensive/partitioned-consumption.md) | Parallel consumers with ordering guarantees inside a partition | |
 
 ## AI-era infrastructure
 
@@ -136,13 +136,13 @@ The seven patterns that showed up in ordinary system design work once models wen
 
 | Pattern | What it solves | Interview view |
 |---|---|---|
-| Feature Store | The same feature computed the same way in training and in serving | |
-| Model Serving | Getting a model behind an API with batching, versions, and rollback | |
-| GPU Auto-Scaling | Scaling the most expensive machine you rent, with a cold start measured in minutes | |
-| LLM Gateway | One control point for keys, quotas, routing, fallbacks, and cost per team | |
-| Semantic Caching | Reusing an answer for a question that is similar, not identical | |
-| Vector Database Sharding | Splitting an index when recall depends on seeing enough of it | |
-| RAG Pipeline | Retrieval, ranking, and generation as a system with real failure modes | |
+| [Feature Store](ai-systems/feature-store.md) | The same feature computed the same way in training and in serving | |
+| [Model Serving](ai-systems/model-serving.md) | Getting a model behind an API with batching, versions, and rollback | |
+| [GPU Auto-Scaling](ai-systems/gpu-autoscaling.md) | Scaling the most expensive machine you rent, with a cold start measured in minutes | |
+| [LLM Gateway](ai-systems/llm-gateway.md) | One control point for keys, quotas, routing, fallbacks, and cost per team | |
+| [Semantic Caching](ai-systems/semantic-caching.md) | Reusing an answer for a question that is similar, not identical | |
+| [Vector Database Sharding](ai-systems/vector-database-sharding.md) | Splitting an index when recall depends on seeing enough of it | |
+| [RAG Pipeline](ai-systems/rag-pipeline.md) | Retrieval, ranking, and generation as a system with real failure modes | |
 
 ## How to read this catalog
 

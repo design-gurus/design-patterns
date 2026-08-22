@@ -96,7 +96,7 @@ Full catalog with links, comparisons, and the "often confused with" map: [code-p
 
 ## System patterns
 
-Sixty-two patterns, grouped the way you meet them: by the problem you are trying to solve, not alphabetically.
+Sixty-two patterns, grouped the way you meet them: by the problem you are trying to solve, not alphabetically. **38 pages are live**, including all five caching strategies, all seven reliability patterns, and all seven AI-era ones.
 
 | Group | Patterns | Covers |
 |---|---|---|
