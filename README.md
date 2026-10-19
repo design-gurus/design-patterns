@@ -139,6 +139,8 @@ Built in batches. Current state is visible in the two catalogs above.
 
 The split between the two repos is deliberate. That repo answers "how do I talk about this in an interview". This one answers "how do I build it, what are the knobs, and when is it the wrong choice". Overlapping patterns link to each other rather than repeating each other.
 
+To choose a system design course, see [Best System Design Courses](https://github.com/design-gurus/best-system-design-courses), which compares the best system design courses by format, price, and goal.
+
 ## Contributing
 
 Pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) first: it has the page templates, the house style rules, and the one rule that keeps this repo from duplicating its sibling.
