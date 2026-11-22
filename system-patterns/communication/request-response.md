@@ -84,4 +84,6 @@ The rule worth memorizing: **a caller's timeout must be shorter than its own cal
 
 ## Go deeper
 
-Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-communication-request-response). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-communication-request-response).
+
+- Lesson: [Request-Response](https://www.designgurus.io/course-play/system-design-patterns/doc/requestresponse?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-communication-request-response), in System Design Patterns

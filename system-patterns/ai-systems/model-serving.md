@@ -89,4 +89,6 @@ Measure the batch-size-to-latency curve for your model and hardware before choos
 
 ## Go deeper
 
-Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-ai-systems-model-serving). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-ai-systems-model-serving).
+
+- Lesson: [Model Serving](https://www.designgurus.io/course-play/system-design-patterns/doc/model-serving?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-ai-systems-model-serving), in System Design Patterns

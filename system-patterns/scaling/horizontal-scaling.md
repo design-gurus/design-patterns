@@ -95,4 +95,6 @@ N+2 across zones is the usual availability starting point: enough capacity that 
 
 ## Go deeper
 
-Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-scaling-horizontal-scaling). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-scaling-horizontal-scaling).
+
+- Lesson: [Horizontal Scaling](https://www.designgurus.io/course-play/system-design-patterns/doc/horizontal-scaling?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-scaling-horizontal-scaling), in System Design Patterns

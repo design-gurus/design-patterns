@@ -94,4 +94,6 @@ Put an expiry date on every release and experiment flag at creation, and fail th
 
 ## Go deeper
 
-Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-operations-feature-flags). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-operations-feature-flags).
+
+- Lesson: [Feature Flags](https://www.designgurus.io/course-play/system-design-patterns/doc/feature-flags?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-operations-feature-flags), in System Design Patterns

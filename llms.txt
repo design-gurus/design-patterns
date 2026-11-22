@@ -1,0 +1,107 @@
+# Design Patterns
+
+> The 22 Gang of Four patterns and more than 60 system design patterns. A free guide from DesignGurus.io, in plain Markdown, with no account required.
+
+Each page is short and ends with links to full course lessons and free articles. Each description below is the opening sentence of that page.
+
+## Code patterns
+
+- [Chain of Responsibility](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/behavioral/chain-of-responsibility.md): Pass a request along a line of handlers until one of them deals with it.
+- [Command](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/behavioral/command.md): Turn a request into an object, so it can be queued, logged, retried, or undone.
+- [Iterator](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/behavioral/iterator.md): Walk a collection without exposing how it stores its items.
+- [Mediator](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/behavioral/mediator.md): Route object-to-object communication through one coordinator, so components stop knowing each other.
+- [Memento](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/behavioral/memento.md): Capture an object's state so it can be restored later, without exposing what is inside it.
+- [Observer](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/behavioral/observer.md): Notify many dependents when one object changes, without the source knowing who they are.
+- [State](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/behavioral/state.md): Let an object change its behavior when its internal state changes, instead of checking a status field everywhere.
+- [Strategy](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/behavioral/strategy.md): Swap an algorithm at runtime behind one interface, instead of branching on a type inside the caller.
+- [Template Method](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/behavioral/template-method.md): Fix the steps of an algorithm in a base class, and let subclasses fill in the steps that differ.
+- [Visitor](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/behavioral/visitor.md): Add a new operation to a class hierarchy without editing any of its classes.
+- [Abstract Factory](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/creational/abstract-factory.md): Create families of related objects that must match, without naming their concrete classes.
+- [Builder](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/creational/builder.md): Assemble a complex object step by step, so callers never face a constructor with twelve arguments.
+- [Factory Method](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/creational/factory-method.md): Let a subclass decide which concrete type to create, without the base class knowing the type exists.
+- [Prototype](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/creational/prototype.md): Create a new object by copying a configured one, instead of building it from scratch.
+- [Singleton](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/creational/singleton.md): One instance of a class, with one place that owns its lifecycle.
+- [Adapter](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/structural/adapter.md): Make an incompatible interface fit the one your code already expects.
+- [Bridge](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/structural/bridge.md): Split one class into two hierarchies that vary independently, before they multiply into a class explosion.
+- [Composite](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/structural/composite.md): Treat a single object and a tree of objects through the same interface.
+- [Decorator](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/structural/decorator.md): Add behavior to one object at runtime, without touching its class and without a subclass per combination.
+- [Facade](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/structural/facade.md): Put one simple entry point in front of a subsystem that is more complicated than most callers need.
+- [Flyweight](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/structural/flyweight.md): Share the part of the state that repeats, so millions of objects fit in memory.
+- [Proxy](https://github.com/design-gurus/design-patterns/blob/main/code-patterns/structural/proxy.md): Stand in for another object, with the same interface, to control access, cost, or timing.
+
+## System patterns
+
+- [Feature Store](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/ai-systems/feature-store.md): Compute a feature once, and serve the identical value to training and to production.
+- [GPU Auto-Scaling](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/ai-systems/gpu-autoscaling.md): Scaling the most expensive machine you rent, when cold start is measured in minutes.
+- [LLM Gateway](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/ai-systems/llm-gateway.md): One control point for keys, quotas, routing, fallbacks, and cost per team.
+- [Model Serving](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/ai-systems/model-serving.md): Put a model behind an API, with batching, versions, and a way back.
+- [RAG Pipeline](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/ai-systems/rag-pipeline.md): Retrieval, ranking, and generation as one system, with failure modes at every stage.
+- [Semantic Caching](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/ai-systems/semantic-caching.md): Reuse an answer for a question that is similar, not identical.
+- [Vector Database Sharding](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/ai-systems/vector-database-sharding.md): Splitting an index whose accuracy depends on seeing enough of it.
+- [API Versioning](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/api-edge/api-versioning.md): Change a contract without breaking clients you do not control.
+- [Backend for Frontend](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/api-edge/backend-for-frontend.md): One API per client type, instead of one API that fits none of them.
+- [Cursor-Based Pagination](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/api-edge/cursor-pagination.md): Page through changing data without skipping or repeating rows, which offset pagination cannot do.
+- [Service Mesh](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/api-edge/service-mesh.md): Sidecars with a control plane.
+- [Sidecar](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/api-edge/sidecar.md): Move cross-cutting concerns out of the application process and into a container beside it.
+- [Cache-Aside](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/caching/cache-aside.md): The application checks the cache, and on a miss it loads from the database and puts the result back.
+- [Cache Stampede Prevention](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/caching/cache-stampede-prevention.md): Stop a thousand requests from rebuilding the same expired key at the same moment.
+- [Read-Through](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/caching/read-through.md): The cache loads from the database itself, so callers never see the data source.
+- [Write-Behind](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/caching/write-behind.md): Acknowledge the write immediately, persist it a moment later, and accept that the moment is a window where data can be lost.
+- [Write-Through](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/caching/write-through.md): Write to the cache and the database together, before acknowledging.
+- [Event-Driven Architecture](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/communication/event-driven-architecture.md): Services coordinate through facts that already happened, instead of commands telling each other what to do.
+- [Publish-Subscribe](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/communication/publish-subscribe.md): One event, many independent consumers, and a publisher that knows none of them.
+- [Request-Response](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/communication/request-response.md): The caller sends a message and waits for the answer.
+- [Webhooks](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/communication/webhooks.md): You call them when something happens, so they stop polling you.
+- [Saga](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/consistency/saga.md): A long transaction split into local steps, each with a compensating action, and no global lock anywhere.
+- [Change Data Capture](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/data-intensive/change-data-capture.md): Turn database writes into a stream, without asking the application to publish anything.
+- [Exactly-Once Semantics](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/data-intensive/exactly-once-semantics.md): What it actually means, why the naive version is impossible, and how real systems get the effect anyway.
+- [Partitioned Consumption](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/data-intensive/partitioned-consumption.md): Parallel consumers, with ordering preserved inside each key.
+- [Blue-Green Deployment](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/operations/blue-green-deployment.md): Two complete environments and one switch.
+- [Canary Deployment](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/operations/canary-deployment.md): Expose a small share of real traffic to the new version, and let the metrics decide.
+- [Distributed Tracing](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/operations/distributed-tracing.md): Follow one request across every service it touched, when the logs are in twelve places.
+- [Feature Flags](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/operations/feature-flags.md): Separate deploying code from releasing behavior, and accept the debt that follows.
+- [Bulkhead](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/reliability/bulkhead.md): Partition resources so one sick dependency cannot drown the whole service.
+- [Dead Letter Queue](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/reliability/dead-letter-queue.md): Somewhere to put the message that will never succeed, so the queue keeps moving.
+- [Graceful Degradation](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/reliability/graceful-degradation.md): Serve something useful when the ideal answer is not available.
+- [Retry with Exponential Backoff](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/reliability/retry-exponential-backoff.md): Try again, waiting longer each time, with randomness, and with a budget.
+- [Timeout](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/reliability/timeout.md): A bound on how long you are willing to be stuck.
+- [Auto-Scaling](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/scaling/auto-scaling.md): Match capacity to load automatically.
+- [Connection Pooling](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/scaling/connection-pooling.md): Reuse connections instead of opening one per request, and stop the database running out of them.
+- [Horizontal Scaling](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/scaling/horizontal-scaling.md): More machines, which forces you to deal with state.
+- [Vertical Scaling](https://github.com/design-gurus/design-patterns/blob/main/system-patterns/scaling/vertical-scaling.md): Get a bigger machine.
+
+## Related free guides
+
+- [Grokking System Design](https://github.com/design-gurus/grokking-system-design): 30 patterns, 59 question walkthroughs, 35 cheat sheets, and guides for 122 companies.
+- [Grokking Coding Interview](https://github.com/design-gurus/grokking-coding-interview): The 41 coding patterns and how to recognize each one in a new problem.
+- [Grokking AI System Design](https://github.com/design-gurus/grokking-ai-system-design): Building blocks and design questions for machine learning, LLM, and agent design rounds.
+- [Best System Design Resources](https://github.com/design-gurus/best-system-design-resources): Courses, books, papers, and videos, sorted by level.
+- [Best System Design Courses](https://github.com/design-gurus/best-system-design-courses): System design courses compared by format, depth, and level.
+- [System Design Numbers](https://github.com/design-gurus/system-design-numbers): Latency numbers, availability tables, traffic formulas, and ten worked capacity estimations.
+- [API Design Interview](https://github.com/design-gurus/api-design-interview): A six-step method for the API design round, the core concepts, and eight question walkthroughs.
+- [Frontend System Design Interview](https://github.com/design-gurus/frontend-system-design-interview): The client side of system design: rendering, state, caching, performance, and eight question walkthroughs.
+- [Mobile System Design Interview](https://github.com/design-gurus/mobile-system-design-interview): System design for iOS and Android engineers: offline sync, caching, push, performance, and eight question walkthroughs.
+- [Microservices Interview Questions](https://github.com/design-gurus/microservices-interview-questions): About 100 questions with short model answers, from service boundaries to sagas and migration.
+- [Concurrency Interview](https://github.com/design-gurus/concurrency-interview): Core concepts and nine classic problems solved in Java, Python, and Go.
+- [DevOps and SRE Interview](https://github.com/design-gurus/devops-sre-interview): The loop round by round: troubleshooting, Linux and networking, SRE system design, and incident response.
+- [Data Engineering Interview](https://github.com/design-gurus/data-engineering-interview): SQL, data modeling, and pipeline design rounds, with six pipeline design walkthroughs.
+- [Forward Deployed Engineer Interview](https://github.com/design-gurus/forward-deployed-engineer-interview): The forward deployed engineer loop, the decomposition round, and the loops at five companies.
+- [Solutions Architect Interview](https://github.com/design-gurus/solutions-architect-interview): Architecture design, customer discovery, and presentation rounds, with loops at five cloud and data companies.
+- [Staff Engineer Interview](https://github.com/design-gurus/staff-engineer-interview): What changes at staff level: the loop, system design at staff scope, the project deep dive, and down-leveling.
+- [Engineering Manager Interview](https://github.com/design-gurus/engineering-manager-interview): The manager loop round by round: people management, project retrospective, behavioral, and system design for managers.
+- [Amazon Leadership Principles](https://github.com/design-gurus/amazon-leadership-principles): All 16 principles with interview questions, sample answers, and how the Amazon loop works.
+- [Software Engineer Levels](https://github.com/design-gurus/software-engineer-levels): Engineering ladders at 17 companies, how levels map across them, and what interviews expect at each level.
+- [Google Interview Guide](https://github.com/design-gurus/google-interview-guide): The whole Google loop: process, coding, system design, behavioral, levels, and a question bank.
+- [Meta Interview Guide](https://github.com/design-gurus/meta-interview-guide): The whole Meta loop: process, coding, system design, behavioral, levels, and a question bank.
+- [Amazon Interview Guide](https://github.com/design-gurus/amazon-interview-guide): The whole Amazon loop: process, coding, system design, behavioral, levels, and a question bank.
+- [Microsoft Interview Guide](https://github.com/design-gurus/microsoft-interview-guide): The whole Microsoft loop: process, coding, system design, behavioral, levels, and a question bank.
+- [Apple Interview Guide](https://github.com/design-gurus/apple-interview-guide): The whole Apple loop: process, coding, system design, behavioral, levels, and a question bank.
+- [Netflix Interview Guide](https://github.com/design-gurus/netflix-interview-guide): The whole Netflix loop: process, coding, system design, behavioral, levels, and a question bank.
+- [OpenAI Interview Guide](https://github.com/design-gurus/openai-interview-guide): The whole OpenAI loop: process, coding, system design, behavioral, levels, and a question bank.
+- [Anthropic Interview Guide](https://github.com/design-gurus/anthropic-interview-guide): The whole Anthropic loop: process, coding, system design, behavioral, levels, and a question bank.
+
+## Optional
+
+The paid course this guide accompanies, for full lessons and worked solutions.
+
+- [Course on DesignGurus.io](https://www.designgurus.io/course/system-design-patterns): The course linked throughout this guide.

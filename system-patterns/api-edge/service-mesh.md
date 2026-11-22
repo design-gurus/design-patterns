@@ -100,4 +100,7 @@ The threshold question, answered honestly: a mesh usually starts paying for itse
 
 ## Go deeper
 
-Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-api-edge-service-mesh). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-api-edge-service-mesh).
+
+- Lesson: [Service Mesh](https://www.designgurus.io/course-play/system-design-patterns/doc/service-mesh?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-api-edge-service-mesh), in System Design Patterns
+- Lesson: [The Architecture of a Service Mesh](https://www.designgurus.io/course-play/grokking-microservices-design-patterns/doc/the-architecture-of-a-service-mesh?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-api-edge-service-mesh), in Grokking Microservices Design Patterns

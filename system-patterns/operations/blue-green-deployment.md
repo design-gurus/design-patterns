@@ -91,4 +91,6 @@ Steps 1 and 5 are separate deployments, often days apart. A migration that drops
 
 ## Go deeper
 
-Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-operations-blue-green-deployment). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-operations-blue-green-deployment).
+
+- Lesson: [Blue-Green Deployment](https://www.designgurus.io/course-play/system-design-patterns/doc/bluegreen-deployment?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-operations-blue-green-deployment), in System Design Patterns

@@ -90,4 +90,7 @@ Little's Law is the sizing tool. A dependency handling 100 requests per second w
 
 ## Go deeper
 
-Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-reliability-bulkhead). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-reliability-bulkhead).
+
+- Lesson: [Bulkhead](https://www.designgurus.io/course-play/system-design-patterns/doc/bulkhead?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-reliability-bulkhead), in System Design Patterns
+- Lesson: [The Bulkhead Pattern: A Solution](https://www.designgurus.io/course-play/grokking-microservices-design-patterns/doc/the-bulkhead-pattern-a-solution?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-reliability-bulkhead), in Grokking Microservices Design Patterns

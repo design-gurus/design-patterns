@@ -1,6 +1,6 @@
 # Design Patterns
 
-> Patterns at two altitudes: the **22 Gang of Four patterns** that shape your code, and the **60+ system design patterns** that shape your architecture. The free, open companion to the pattern courses by [DesignGurus.io](https://www.designgurus.io?utm_source=github&utm_medium=repo&utm_campaign=design-patterns), created by Arslan Ahmad.
+> Patterns at two altitudes: the **22 Gang of Four patterns** that shape your code, and the **60+ system design patterns** that shape your architecture. The free, open companion to the pattern courses by [DesignGurus.io](https://www.designgurus.io?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=readme), created by Arslan Ahmad.
 
 [![GitHub stars](https://img.shields.io/github/stars/design-gurus/design-patterns?style=social)](https://github.com/design-gurus/design-patterns/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/design-gurus/design-patterns)](https://github.com/design-gurus/design-patterns/commits/main)
@@ -40,8 +40,8 @@ The original Gang of Four book is *Design Patterns: Elements of Reusable Object-
 
 That is what this repository is, and it is free in your browser with no account. There is no official PDF of the DesignGurus courses. The PDFs that circulate are unofficial copies of old versions, missing every fix made since. The current courses are online:
 
-- [Grokking Design Patterns for Engineers and Managers](https://www.designgurus.io/course/grokking-design-patterns-for-engineers-and-managers?utm_source=github&utm_medium=repo&utm_campaign=design-patterns) for the code-level patterns.
-- [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns) for the system-level patterns.
+- [Grokking Design Patterns for Engineers and Managers](https://www.designgurus.io/course/grokking-design-patterns-for-engineers-and-managers?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=readme) for the code-level patterns.
+- [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=readme) for the system-level patterns.
 
 ## How to use this repo
 
@@ -133,6 +133,18 @@ Built in batches. Current state is visible in the two catalogs above.
 - `interview/`: how patterns actually get tested, in object-oriented design rounds and system design rounds.
 - `cheat-sheets/`: flashcards, selection tables, one-pagers.
 
+## Course lessons to start with
+
+- [Strategy Pattern](https://www.designgurus.io/course-play/grokking-design-patterns-for-engineers-and-managers/doc/strategy-pattern?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=readme): swapping one algorithm for another behind a single interface, in Grokking Design Patterns for Engineers and Managers
+- [Observer Pattern](https://www.designgurus.io/course-play/grokking-design-patterns-for-engineers-and-managers/doc/observer-pattern?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=readme): notifying many dependent objects when one object changes, in Grokking Design Patterns for Engineers and Managers
+- [Factory Method Pattern](https://www.designgurus.io/course-play/grokking-design-patterns-for-engineers-and-managers/doc/factory-method-pattern?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=readme): letting subclasses decide which object to create, in Grokking Design Patterns for Engineers and Managers
+- [Decorator Pattern](https://www.designgurus.io/course-play/grokking-design-patterns-for-engineers-and-managers/doc/decorator-pattern?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=readme): adding behavior to an object by wrapping it, in Grokking Design Patterns for Engineers and Managers
+- [Cache-Aside](https://www.designgurus.io/course-play/system-design-patterns/doc/cacheaside?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=readme): the application reads the cache first and fills it on a miss, in System Design Patterns
+- [Retry with Exponential Backoff](https://www.designgurus.io/course-play/system-design-patterns/doc/retry-with-exponential-backoff?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=readme): retrying failed calls with growing, randomized delays, in System Design Patterns
+- [Saga](https://www.designgurus.io/course-play/system-design-patterns/doc/saga?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=readme): a multi-service transaction built from local steps and compensations, in System Design Patterns
+- [Publish-Subscribe](https://www.designgurus.io/course-play/system-design-patterns/doc/publishsubscribe?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=readme): one published event delivered to many independent subscribers, in System Design Patterns
+- [Canary Deployment](https://www.designgurus.io/course-play/system-design-patterns/doc/canary-deployment?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=readme): releasing a new version to a small share of traffic first, in System Design Patterns
+
 ## Related repository
 
 [**grokking-system-design**](https://github.com/design-gurus/grokking-system-design) is the interview-prep companion: the framework, 60+ question walkthroughs, 120+ company-specific guides, deep dives, and study roadmaps.
@@ -140,6 +152,16 @@ Built in batches. Current state is visible in the two catalogs above.
 The split between the two repos is deliberate. That repo answers "how do I talk about this in an interview". This one answers "how do I build it, what are the knobs, and when is it the wrong choice". Overlapping patterns link to each other rather than repeating each other.
 
 To choose a system design course, see [Best System Design Courses](https://github.com/design-gurus/best-system-design-courses), which compares the best system design courses by format, price, and goal.
+
+## More free guides
+
+Every guide below is free, follows the same short-page format, and comes from DesignGurus.io.
+
+- **Core guides:** [Grokking System Design](https://github.com/design-gurus/grokking-system-design), [Grokking Coding Interview](https://github.com/design-gurus/grokking-coding-interview), [Grokking AI System Design](https://github.com/design-gurus/grokking-ai-system-design), [Best System Design Resources](https://github.com/design-gurus/best-system-design-resources), [Best System Design Courses](https://github.com/design-gurus/best-system-design-courses)
+- **By interview round:** [System Design Numbers](https://github.com/design-gurus/system-design-numbers), [API Design Interview](https://github.com/design-gurus/api-design-interview), [Frontend System Design Interview](https://github.com/design-gurus/frontend-system-design-interview), [Mobile System Design Interview](https://github.com/design-gurus/mobile-system-design-interview), [Microservices Interview Questions](https://github.com/design-gurus/microservices-interview-questions), [Concurrency Interview](https://github.com/design-gurus/concurrency-interview)
+- **By role:** [DevOps and SRE Interview](https://github.com/design-gurus/devops-sre-interview), [Data Engineering Interview](https://github.com/design-gurus/data-engineering-interview), [Forward Deployed Engineer Interview](https://github.com/design-gurus/forward-deployed-engineer-interview), [Solutions Architect Interview](https://github.com/design-gurus/solutions-architect-interview)
+- **Seniority and behavioral:** [Staff Engineer Interview](https://github.com/design-gurus/staff-engineer-interview), [Engineering Manager Interview](https://github.com/design-gurus/engineering-manager-interview), [Amazon Leadership Principles](https://github.com/design-gurus/amazon-leadership-principles), [Software Engineer Levels](https://github.com/design-gurus/software-engineer-levels)
+- **By company:** [Google Interview Guide](https://github.com/design-gurus/google-interview-guide), [Meta Interview Guide](https://github.com/design-gurus/meta-interview-guide), [Amazon Interview Guide](https://github.com/design-gurus/amazon-interview-guide), [Microsoft Interview Guide](https://github.com/design-gurus/microsoft-interview-guide), [Apple Interview Guide](https://github.com/design-gurus/apple-interview-guide), [Netflix Interview Guide](https://github.com/design-gurus/netflix-interview-guide), [OpenAI Interview Guide](https://github.com/design-gurus/openai-interview-guide), [Anthropic Interview Guide](https://github.com/design-gurus/anthropic-interview-guide)
 
 ## Contributing
 

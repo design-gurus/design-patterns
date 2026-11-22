@@ -150,4 +150,6 @@ Sealed classes and pattern matching make the simple version safer: a `match` ove
 
 ## Go deeper
 
-Full lesson with diagrams and worked examples in [Grokking Design Patterns for Engineers and Managers](https://www.designgurus.io/course/grokking-design-patterns-for-engineers-and-managers?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For how patterns are tested in a low-level design round, see [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Full lesson with diagrams and worked examples in [Grokking Design Patterns for Engineers and Managers](https://www.designgurus.io/course/grokking-design-patterns-for-engineers-and-managers?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=code-patterns-behavioral-state). For how patterns are tested in a low-level design round, see [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=code-patterns-behavioral-state).
+
+- Lesson: [State Pattern](https://www.designgurus.io/course-play/grokking-design-patterns-for-engineers-and-managers/doc/state-pattern?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=code-patterns-behavioral-state), in Grokking Design Patterns for Engineers and Managers

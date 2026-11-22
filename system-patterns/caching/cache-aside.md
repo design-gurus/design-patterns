@@ -92,4 +92,7 @@ Cache a miss too. A key that does not exist, queried constantly, hits the databa
 
 ## Go deeper
 
-Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-caching-cache-aside). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-caching-cache-aside).
+
+- Lesson: [Cache-Aside](https://www.designgurus.io/course-play/system-design-patterns/doc/cacheaside?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-caching-cache-aside), in System Design Patterns
+- Lesson: [Cache Read Strategies](https://www.designgurus.io/course-play/grokking-system-design-fundamentals/doc/cache-read-strategies?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-caching-cache-aside), in Grokking System Design Fundamentals

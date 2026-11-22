@@ -97,4 +97,6 @@ For multi-tenant systems, partitioning by tenant is usually right: it removes fa
 
 ## Go deeper
 
-Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-ai-systems-vector-database-sharding). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-ai-systems-vector-database-sharding).
+
+- Lesson: [Vector Database Sharding](https://www.designgurus.io/course-play/system-design-patterns/doc/vector-database-sharding?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-ai-systems-vector-database-sharding), in System Design Patterns

@@ -154,7 +154,7 @@ Three suggestions, depending on why you are here.
 
 ## Go deeper
 
-All 62 patterns are taught, with diagrams, real incidents, and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). The course also builds four full designs (a news feed, ride-sharing dispatch, a payment platform, and an AI copilot) out of these patterns.
+All 62 patterns are taught, with diagrams, real incidents, and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-readme). The course also builds four full designs (a news feed, ride-sharing dispatch, a payment platform, and an AI copilot) out of these patterns.
 
 To add a page, copy [_template.md](_template.md) and follow [CONTRIBUTING.md](../CONTRIBUTING.md).
 

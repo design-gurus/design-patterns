@@ -93,4 +93,6 @@ Load shedding is graceful degradation applied to capacity rather than dependenci
 
 ## Go deeper
 
-Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-reliability-graceful-degradation). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-reliability-graceful-degradation).
+
+- Lesson: [Graceful Degradation](https://www.designgurus.io/course-play/system-design-patterns/doc/graceful-degradation?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-reliability-graceful-degradation), in System Design Patterns

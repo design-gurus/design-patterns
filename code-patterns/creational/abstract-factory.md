@@ -150,4 +150,6 @@ A factory interface with several methods can be a plain object holding several f
 
 ## Go deeper
 
-Full lesson with diagrams and worked examples in [Grokking Design Patterns for Engineers and Managers](https://www.designgurus.io/course/grokking-design-patterns-for-engineers-and-managers?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For how patterns are tested in a low-level design round, see [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Full lesson with diagrams and worked examples in [Grokking Design Patterns for Engineers and Managers](https://www.designgurus.io/course/grokking-design-patterns-for-engineers-and-managers?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=code-patterns-creational-abstract-factory). For how patterns are tested in a low-level design round, see [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=code-patterns-creational-abstract-factory).
+
+- Lesson: [Abstract Factory Pattern](https://www.designgurus.io/course-play/grokking-design-patterns-for-engineers-and-managers/doc/abstract-factory-pattern?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=code-patterns-creational-abstract-factory), in Grokking Design Patterns for Engineers and Managers

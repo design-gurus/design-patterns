@@ -142,4 +142,6 @@ The implementation side can be a function or a small object rather than an inter
 
 ## Go deeper
 
-Full lesson with diagrams and worked examples in [Grokking Design Patterns for Engineers and Managers](https://www.designgurus.io/course/grokking-design-patterns-for-engineers-and-managers?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For how patterns are tested in a low-level design round, see [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Full lesson with diagrams and worked examples in [Grokking Design Patterns for Engineers and Managers](https://www.designgurus.io/course/grokking-design-patterns-for-engineers-and-managers?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=code-patterns-structural-bridge). For how patterns are tested in a low-level design round, see [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=code-patterns-structural-bridge).
+
+- Lesson: [Bridge Pattern](https://www.designgurus.io/course-play/grokking-design-patterns-for-engineers-and-managers/doc/bridge-pattern?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=code-patterns-structural-bridge), in Grokking Design Patterns for Engineers and Managers

@@ -88,4 +88,6 @@ Set the visibility timeout from measured processing time. If it is shorter than 
 
 ## Go deeper
 
-Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Covered lesson by lesson, with diagrams and honest trade-offs, in [System Design Patterns](https://www.designgurus.io/course/system-design-patterns?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-reliability-dead-letter-queue). For interview framing, see [grokking-system-design](https://github.com/design-gurus/grokking-system-design) and [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-reliability-dead-letter-queue).
+
+- Lesson: [Dead Letter Queue](https://www.designgurus.io/course-play/system-design-patterns/doc/dead-letter-queue?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=system-patterns-reliability-dead-letter-queue), in System Design Patterns

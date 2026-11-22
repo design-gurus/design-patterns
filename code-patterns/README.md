@@ -122,8 +122,8 @@ Not alphabetical, and not the order the book uses. This is the order the pattern
 
 ## Go deeper
 
-Every pattern here has a full lesson, with diagrams and worked examples, in [Grokking Design Patterns for Engineers and Managers](https://www.designgurus.io/course/grokking-design-patterns-for-engineers-and-managers?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+Every pattern here has a full lesson, with diagrams and worked examples, in [Grokking Design Patterns for Engineers and Managers](https://www.designgurus.io/course/grokking-design-patterns-for-engineers-and-managers?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=code-patterns-readme).
 
-For how patterns are tested in a low-level design round, see [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns). For the principles underneath the patterns, see [Grokking SOLID Design Principles](https://www.designgurus.io/course/grokking-solid-design-principles?utm_source=github&utm_medium=repo&utm_campaign=design-patterns).
+For how patterns are tested in a low-level design round, see [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=code-patterns-readme). For the principles underneath the patterns, see [Grokking SOLID Design Principles](https://www.designgurus.io/course/grokking-solid-design-principles?utm_source=github&utm_medium=repo&utm_campaign=design-patterns&utm_content=code-patterns-readme).
 
 To add a page, copy [_template.md](_template.md) and follow [CONTRIBUTING.md](../CONTRIBUTING.md).
